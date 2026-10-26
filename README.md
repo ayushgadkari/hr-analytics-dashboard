@@ -1,28 +1,54 @@
-# HR Analytics Dashboard
+HR Analytics Dashboard
 
-![Dashboard Preview](dashboard-preview.png)
+An interactive Power BI dashboard designed to analyze employee demographics, turnover patterns, and salary distributions to help organizations make data-driven decisions regarding talent retention.
 
-An interactive Power BI dashboard built to analyze workforce demographics, employee attrition, compensation trends, and job satisfaction metrics using the comprehensive HR Analytics dataset.
+📌 Dashboard Highlights & KPI Overview
 
-## 📊 Project Overview
-This project explores employee data to uncover patterns and actionable insights regarding workforce retention, salary slabs, overtime impact, and factors driving employee turnover.
+Overall Employees: 1,470
 
-## 📁 Repository Structure
-- `HR_Analytics.csv`: The primary dataset containing employee records, demographic details, compensation, and performance metrics.
-- `Power bi.pbix`: The Power BI dashboard file featuring interactive visualizations and filters.
+Total Attrition: 237 employees
 
-## 🔑 Key Metrics & Insights
-- **Attrition & Turnover:** Analysis of voluntary vs. involuntary attrition rates, identifying departments and roles with higher turnover risks.
-- **Compensation & Salary Slabs:** Breakdown of monthly income distribution, salary slabs, and percentage salary hikes across different job levels.
-- **Employee Demographics:** Exploration of age groups, gender distribution, marital status, and distance from home.
-- **Workplace Satisfaction & Overtime:** Impact of overtime, work-life balance, environment satisfaction, and job involvement on employee retention.
+Attrition Rate: 16.1%
 
-## 🛠️ Tools & Technologies Used
-- **Data Visualization:** Power BI
-- **Data Analytics & Processing:** CSV / Data Modeling
-- **Version Control:** Git & GitHub
+Average Age: 37 years
 
-## 🚀 How to View
-1. Download the `Power bi.pbix` file and the `HR_Analytics.csv` dataset.
-2. Open the `.pbix` file using Power BI Desktop.
-3. If prompted for data source paths, update the source link to point to your local copy of `HR_Analytics.csv`.
+Average Salary: $6.5K
+
+Average Tenure: 7.0 Years at Company
+
+📊 Key Insights & Visualizations
+
+Attrition by Education: Breakdown of turnover across educational backgrounds, dominated by Life Sciences (38%) and Medical (27%).
+
+Attrition by Age Group: Highest employee turnover observed in the 26–35 age bracket (116 employees), followed by 18–25 (44 employees).
+
+Attrition by Salary Slab: Majority of attrition occurs in the lower pay slab (Upto $5k - 163 employees), showing a strong correlation between salary level and retention.
+
+Attrition by Job Role: Roles most impacted by attrition include Laboratory Technician (62), Sales Executive (57), and Research Scientist (47).
+
+Attrition by Tenure: Spike in turnover during early tenure, particularly around Year 1 (59 employees) at the company.
+
+📁 Repository Structure
+
+├── HR_Analytics.csv      # Primary dataset containing workforce records
+├── Power bi.pbix         # Power BI dashboard file with interactive visualizations
+├── dashboard-preview.png # Dashboard screenshot
+└── README.md             # Project documentation
+
+
+
+🛠️ Tools & Technologies Used
+
+Data Visualization: Power BI (KPI Cards, Donut Chart, Column/Bar Charts, Area Chart, Matrix Table)
+
+Data Source: CSV (HR Analytics Dataset)
+
+Version Control: Git & GitHub
+
+🚀 How to View
+
+Clone or download this repository.
+
+Open the Power bi.pbix file using Power BI Desktop.
+
+If prompted for the data source path, update the source location to point to your local copy of HR_Analytics.csv.
