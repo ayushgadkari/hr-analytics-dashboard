@@ -1,5 +1,7 @@
 # HR Analytics Dashboard
 
+![Dashboard Preview](dashboard-preview.png)
+
 An interactive Power BI dashboard built to analyze employee demographics, performance scores, turnover rates, and key workforce metrics using HR Dataset v14.
 
 ## 📊 Project Overview
