@@ -1,5 +1,7 @@
 HR Analytics Dashboard
 
+![Dashboard Preview](dashboard-preview.png)
+
 An interactive Power BI dashboard designed to analyze employee demographics, turnover patterns, and salary distributions to help organizations make data-driven decisions regarding talent retention.
 
 📌 Dashboard Highlights & KPI Overview
